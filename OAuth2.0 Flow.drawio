@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-03T04:18:57.122Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="ymlHneykKKwycthccda5" version="13.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-03T04:30:41.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="NnD043na8nuPVEEidFdt" version="13.3.4" type="github">
   <diagram id="9FcNBJ3oQjk3SiIhdpiv" name="Page-1">
     <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -109,6 +109,25 @@
         <mxCell id="5tOZW5mi16WpFH1qeaTQ-26" value="Returns an authorization code &lt;br&gt;to allow access to our api." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5tOZW5mi16WpFH1qeaTQ-25">
           <mxGeometry x="-0.0588" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-27" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="5tOZW5mi16WpFH1qeaTQ-18" target="5tOZW5mi16WpFH1qeaTQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="290" as="sourcePoint" />
+            <mxPoint x="450" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-29" value="Asks the oauth provider to validate this &lt;br&gt;token and send back information&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5tOZW5mi16WpFH1qeaTQ-27">
+          <mxGeometry x="-0.1592" y="-2" relative="1" as="geometry">
+            <mxPoint x="-66" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-30" value="Return a success response &lt;br&gt;with the requested information" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5tOZW5mi16WpFH1qeaTQ-27">
+          <mxGeometry x="0.1837" y="-90" relative="1" as="geometry">
+            <mxPoint x="93" y="110" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
