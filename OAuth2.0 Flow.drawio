@@ -1,1 +1,117 @@
-<mxfile host="app.diagrams.net" modified="2020-09-03T04:03:58.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" version="13.3.4" etag="OP4tkdiH3sqfLz2b70SX" type="github"><diagram id="9FcNBJ3oQjk3SiIhdpiv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-03T04:18:57.122Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="ymlHneykKKwycthccda5" version="13.3.4" type="github">
+  <diagram id="9FcNBJ3oQjk3SiIhdpiv" name="Page-1">
+    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5tOZW5mi16WpFH1qeaTQ-1" target="5tOZW5mi16WpFH1qeaTQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-9" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;Clicks on the sign-in &lt;br&gt;with social button.&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5tOZW5mi16WpFH1qeaTQ-8">
+          <mxGeometry x="-0.2381" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-4" value="DRF API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5tOZW5mi16WpFH1qeaTQ-5" target="5tOZW5mi16WpFH1qeaTQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-11" value="Asks the api to &lt;br&gt;provide a redirect uri" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5tOZW5mi16WpFH1qeaTQ-10">
+          <mxGeometry x="-0.2435" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-5" value="Front End web app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-13" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="5tOZW5mi16WpFH1qeaTQ-4" target="5tOZW5mi16WpFH1qeaTQ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="400" as="sourcePoint" />
+            <mxPoint x="340" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="697" y="400" />
+              <mxPoint x="350" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-14" value="Return an authorization &lt;br&gt;url&amp;nbsp;to redirect the user to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5tOZW5mi16WpFH1qeaTQ-13">
+          <mxGeometry x="-0.0588" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-16" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="5tOZW5mi16WpFH1qeaTQ-5" target="5tOZW5mi16WpFH1qeaTQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="130" as="sourcePoint" />
+            <mxPoint x="570" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="400" />
+              <mxPoint x="45" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-17" value="Redirects the user to the oauth &lt;br&gt;provider&#39;s authorization page &lt;br&gt;sent back by the api" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5tOZW5mi16WpFH1qeaTQ-16">
+          <mxGeometry x="-0.0474" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5tOZW5mi16WpFH1qeaTQ-18" target="5tOZW5mi16WpFH1qeaTQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-22" value="Redirects the user back to our app to a &lt;br&gt;specific redirect url we initially provided.&lt;br&gt;With an authorization code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5tOZW5mi16WpFH1qeaTQ-20">
+          <mxGeometry x="-0.2588" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-18" value="OAuth2.0 Provider" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-19" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5tOZW5mi16WpFH1qeaTQ-1" target="5tOZW5mi16WpFH1qeaTQ-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-21" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;Authrorizes our app by &lt;br&gt;clicking confirm/yes&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=323;" vertex="1" connectable="0" parent="5tOZW5mi16WpFH1qeaTQ-19">
+          <mxGeometry x="-0.1089" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-23" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="5tOZW5mi16WpFH1qeaTQ-5" target="5tOZW5mi16WpFH1qeaTQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699.25" y="430" as="sourcePoint" />
+            <mxPoint x="350" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="200" />
+              <mxPoint x="610" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-24" value="Send this authorization code to our api" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5tOZW5mi16WpFH1qeaTQ-23">
+          <mxGeometry x="-0.0588" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-25" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="5tOZW5mi16WpFH1qeaTQ-4" target="5tOZW5mi16WpFH1qeaTQ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699.25" y="390" as="sourcePoint" />
+            <mxPoint x="350" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="120" />
+              <mxPoint x="480" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tOZW5mi16WpFH1qeaTQ-26" value="Returns an authorization code &lt;br&gt;to allow access to our api." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5tOZW5mi16WpFH1qeaTQ-25">
+          <mxGeometry x="-0.0588" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
